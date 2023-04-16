@@ -1,0 +1,31 @@
+.subscribe {
+    background-image: url("../images/background.jpg");
+    background-size: no-repeat;
+    width: 1200px;
+    }
+.filter {
+    background-image: url("../images/background.jpg");
+    background-size: no-repeat;
+    width: 1200px;
+    }
+.button {
+    background: #756257;
+    border-radius: 4px;
+    }
+
+.advantages-item {
+    background: #83B3D3;
+    }
+.advantages-list-inner {
+    background: rgba(131, 179, 211, 0.12);
+    background-color: #ffffff;
+    }
+.advantages-item:not(.advantages-item-large):nth-child(even) {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+.advantages-item-large {
+  background-color: #83B3D3;
+}
+.advantages-list-inner .advantages-item:nth-child(even) {
+  background-color: #ffffff;
+}
